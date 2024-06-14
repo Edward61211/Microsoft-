@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Microsoft-clone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/microsoft.css" />
+  </head>
+
+  <body>
+    <nav class="container-normal">
+      <div class="logo">
+        <img src="./img/m-logo.png" alt="" />
+      </div>
+      <ul class="menu pc-menu">
+        <a href="">
+          <li tabindex="1"><span>Microsoft 365</span></li>
+        </a>
+        <a href="">
+          <li tabindex="1"><span>Windows</span></li>
+        </a>
+        <a href="">
+          <li tabindex="1"><span>Surface</span></li>
+        </a>
+        <a href="">
+          <li tabindex="1"><span>Xbox</span></li>
+        </a>
+        <a href="">
+          <li tabindex="1"><span>Deals</span></li>
+        </a>
+        <a href="">
+          <li tabindex="1"><span>Support</span></li>
+        </a>
+      </ul>
+      <ul class="menu func-menu">
+        <li tabindex="1">
+          <input type="checkbox" id="all-microsoft-switch" hidden />
+          <label for="all-microsoft-switch">
+            <span class="all-microsoft">All Microsoft</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </label>
+          <div class="dropdown-menu">
+            <ul>
+              <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;軟體
+              </p>
+              <li>Windows 應用程式</li>
+            </ul>
+            <ul>
+              <p>個人電腦和設備</p>
+              <li>選購 Xbox</li>
+            </ul>
+            <ul>
+              <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;娛樂
+              </p>
+              <li>Xbox Game Pass Ultimate</li>
+            </ul>
+            <ul>
+              <p>&nbsp;&nbsp;商務適用</p>
+              <li>Microsoft Azure</li>
+            </ul>
+            <ul>
+              <p>Developer & IT</p>
+              <li>.NET</li>
+            </ul>
+            <ul>
+              <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;其他
+              </p>
+              <li>Microsoft Rewards</li>
+            </ul>
+            <div class="drop-bottom-item">檢視網站地圖 &gt;</div>
+          </div>
+          <a href="">
+            <li tabindex="1">
+              <span class="hide-text">Search&nbsp;</span
+              ><i class="fa-solid fa-magnifying-glass"></i>
+            </li>
+          </a>
+          <a href="">
+            <li tabindex="1">
+              <span class="hide-text">Buy&nbsp</span
+              ><i class="fa-solid fa-cart-shopping"></i>
+            </li>
+          </a>
+          <a href="">
+            <li tabindex="1">
+              <span class="hide-text">Login&nbsp</span
+              ><i class="fa-regular fa-circle-user"></i>
+            </li>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <header class="container-full">
+      <div style="position: relative">
+        <picture>
+          <source media="(min-width:1400px)" srcset="./img/slide.jpg" />
+          <source media="(min-width:1084px)" srcset="./img/slide.jpg" />
+          <source media="(min-width:860px)" srcset="./img/slide.jpg" />
+          <source media="(min-width:540px)" srcset="./img/slide.jpg" />
+          <img class="w-100" src="./img/slide.jpg" alt="" />
+        </picture>
+        <div
+          class="content-block1"
+          style="
+            position: absolute;
+            bottom: 25%;
+            right: 0%;
+            padding: 3%;
+            color: rgb(0, 0, 0);
+            max-width: 400px;
+          "
+        >
+          <h2 style="font-size: 1.3em">Surface Deals</h2>
+          <div style="max-width: 400px">
+            <p style="font-size: 1em">
+              Discover the best Surface and Xbox deals. Enjoy 2-3 days free
+              shipping and returns.
+            </p>
+          </div>
+          <a href="#" class="btn" style="font-size: 1em"
+            >Show Now <i class="fas fa-chevron-right"></i
+          ></a>
+        </div>
+      </div>
+      <div
+        class="content-block2"
+        style="
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4), 2px 0 4px rgba(0, 0, 0, 0.4),
+            0 -2px 4px rgba(0, 0, 0, 0.4), -2px 0 4px rgba(0, 0, 0, 0.4);
+          position: relative;
+          padding: 3%;
+          color: rgb(0, 0, 0);
+          width: 100%;
+          margin: auto;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: center;
+        "
+      >
+        <h2 style="font-size: 1.3em">Surface Deals</h2>
+        <div
+          style="
+            max-width: 570px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+            text-align: center;
+          "
+        >
+          <p style="font-size: 1em">
+            Discover the best Surface and Xbox deals. Enjoy 2-3 days free
+            shipping and returns.
+          </p>
+        </div>
+        <a href="#" class="btn btn2" style="font-size: 0.99em"
+          >Show Now <i class="fas fa-chevron-right"></i
+        ></a>
+      </div>
+      <div class="slide-btn">
+        <a href="">
+          <i tabindex="1"
+            >&nbsp;<span class="arrow-right slide-arrow-left"></span
+          ></i>
+        </a>
+        <i>&nbsp;<span class="middle"></span></i>
+        <a href=""
+          ><i tabindex="1"
+            >&nbsp;<span class="arrow-right slide-arrow-right"></span></i
+        ></a>
+      </div>
+    </header>
+    <main class="container-normal">
+      <section class="three-choice">
+        <div class="one-choice">
+          <img
+            src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Link-List-Icons-Xbox-Games-Consoles?wid=40&hei=40"
+            alt=""
+          />
+          <p>Shop Xbox games and consoles</p>
+        </div>
+        <div class="one-choice">
+          <img
+            src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Link-List-Icons-Accessories?wid=40&hei=40"
+            alt=""
+          />
+          <p>Shop for accessories</p>
+        </div>
+        <div class="one-choice">
+          <img
+            src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Link-List-Icons-Business?wid=40&hei=40"
+            alt=""
+          />
+          <p>Shop for your business</p>
+        </div>
+      </section>
+      <section class="four-card">
+        <div class="one-card">
+          <img src="./img/card0.jpeg" alt="" />
+          <div class="intro">
+            <h2>Samsung Galaxy Note10</h2>
+            <div class="content">
+              Make life easier with the Samsung Galaxy Note10 Essentials Bundle
+              . Buy and get up to $100
+            </div>
+            <a href="">
+              <p>Learn more&nbsp;&nbsp;<span class="arrow-right"></span></p>
+            </a>
+          </div>
+        </div>
+        <div class="one-card">
+          <img src="./img/card2.webp" alt="" />
+          <div class="intro">
+            <h2>Laptop 3 for Business</h2>
+            <div class="content">
+              Bundle now and save up to $250 with Surface Laptop 3 for Business
+              + Surface Dock for Business Bundle.
+            </div>
+            <a href="">
+              <p>Learn more&nbsp;&nbsp;<span class="arrow-right"></span></p>
+            </a>
+          </div>
+        </div>
+        <div class="one-card">
+          <img src="./img/card3.webp" alt="" />
+          <div class="intro">
+            <h2>Xbox and gift cards</h2>
+            <div class="content">
+              Elevate your gaming experience with Xbox and exclusive perks. The
+              gift of endless possibilities.
+            </div>
+            <a href="">
+              <p>Learn more&nbsp;&nbsp;<span class="arrow-right"></span></p>
+            </a>
+          </div>
+        </div>
+        <div class="one-card">
+          <img src="./img/card4.webp" alt="" />
+          <div class="intro">
+            <h2>SReopen, return, and engage</h2>
+            <div class="content">
+              Give your teams the tools they need to stay safe and productive as
+              they return.
+            </div>
+
+            <a href="">
+              <p>Learn more&nbsp;&nbsp;<span class="arrow-right"></span></p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="big-img">
+        <div style="position: relative">
+          <picture>
+            <source media="(min-width:1400px)" srcset="./img/xbox.png" />
+            <source media="(min-width:1084px)" srcset="./img/xbox.png" />
+            <source media="(min-width:860px)" srcset="./img/xbox.png" />
+            <source media="(min-width:540px)" srcset="./img/xbox.png" />
+            <img class="w-100" src="../img/xbox.png" alt="" />
+          </picture>
+          <div
+            class="content-block1"
+            style="
+              position: absolute;
+              top: 12%;
+              left: 2%;
+              padding: 3%;
+              color: rgb(0, 0, 0);
+            "
+          >
+            <h2 style="font-size: 1.3em">Join Xbox Game Now Live</h2>
+            <div style="max-width: 300px">
+              <p style="font-size: 1em">
+                Join the world’s premier gaming community. Xbox Live unites
+                gamers across Xbox One and Windows, connect with all the
+                communities.
+              </p>
+            </div>
+            <a href="#" class="btn" style="font-size: 1em"
+              >Join Now <i class="fas fa-chevron-right"></i
+            ></a>
+          </div>
+        </div>
+        <div
+          class="content-block2"
+          style="
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4),
+              2px 0 4px rgba(0, 0, 0, 0.4), 0 -2px 4px rgba(0, 0, 0, 0.4),
+              -2px 0 4px rgba(0, 0, 0, 0.4);
+            position: relative;
+            padding: 3%;
+            color: rgb(0, 0, 0);
+            width: 100%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+          "
+        >
+          <h2 style="font-size: 1.3em">Join Xbox Game Now Live</h2>
+          <div
+            style="
+              max-width: 570px;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              height: 100%;
+              text-align: center;
+            "
+          >
+            <p style="font-size: 1.1em">
+              Join the world’s premier gaming community. Xbox Live unites gamers
+              across Xbox One and Windows, connect with all the communities.
+            </p>
+          </div>
+          <a href="#" class="btn btn2" style="font-size: 0.99em"
+            >Join Now <i class="fas fa-chevron-right"></i
+          ></a>
+        </div>
+      </section>
+
+      <section class="four-card">
+        <!-- 四張圖 -->
+        <div class="one-card">
+          <img src="./img/team.jpg" alt="" />
+          <div class="intro">
+            <h2>Microsoft Teams</h2>
+            <div class="content">
+              Unleash the power of your team. Surface for Business devices
+              include Windows 10 Pro。
+            </div>
+            <a href="">
+              <p>Learn more&nbsp;&nbsp;<span class="arrow-right"></span></p>
+            </a>
+          </div>
+        </div>
+        <div class="one-card">
+          <img src="./img/learning.jpg" alt="" />
+          <div class="intro">
+            <h2>Unlock the power of learning</h2>
+            <div class="content">
+              Get students future-ready with Windows 10 devices. Starting at
+              $219.
+            </div>
+            <a href="">
+              <p>shop now&nbsp;&nbsp;<span class="arrow-right"></span></p>
+            </a>
+          </div>
+        </div>
+        <div class="one-card">
+          <img src="./img/Windows.jpg" alt="" />
+          <div class="intro">
+            <h2>Windows 14 Enterprise</h2>
+            <div class="content">
+              Download the free 90-day evaluation for IT professionals.
+            </div>
+            <a href="">
+              <p>Download now&nbsp;&nbsp;<span class="arrow-right"></span></p>
+            </a>
+          </div>
+        </div>
+        <div class="one-card">
+          <img src="./img/carbon.jpg" alt="" />
+          <div class="intro">
+            <h2>Explore laptops-pc</h2>
+            <div class="content">
+              Microsoft launches its affordable Surface Laptop Go and updated
+              Surface Pro X: Price, specs and more
+            </div>
+            <a href="">
+              <p>Get started&nbsp;&nbsp;<span class="arrow-right"></span></p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="social">
+        <p>Follow Microsoft&nbsp;&nbsp;</p>
+        <a href="https://facebook.com" target="_blank"
+          ><img src="./img/Facebook 2x.avif" /></a
+        ><a href="https://twitter.com/microsoft" target="_blank"
+          ><img src="./img/icon-MSCOM-X-64x64.webp" /></a
+        ><a href="https://www.linkedin.com/company/microsoft" target="_blank"
+          ><img src="./img/Linkedin 2x.avif"
+        /></a>
+        <a href="#" class="go-top" style="font-size: 1em"
+          ><i class="fas fa-chevron-up"></i>&nbsp;Go to top&nbsp;&nbsp;</a
+        >
+      </section>
+    </main>
+    <footer>
+      <div class="container-normal">
+        <div class="footer-menu">
+          <div class="main-item">
+            <p>What's new</p>
+            <ul class="subitem">
+              <a href=""
+                ><li tabindex="1"><span>Surface Latop Studio 2</span></li></a
+              >
+              <a href=""
+                ><li tabindex="1"><span>Surface Laptop Go 3</span></li></a
+              >
+              <a href=""
+                ><li tabindex="1"><span>Surface Pro 9</span></li></a
+              >
+              <a href=""
+                ><li tabindex="1"><span>Surface Laptop 5</span></li></a
+              >
+              <a href=""
+                ><li tabindex="1"><span>Microsoft Copilot</span></li></a
+              >
+              <a href=""
+                ><li tabindex="1"><span>Copilot in Windows</span></li></a
+              >
+              <a href=""
+                ><li tabindex="1">
+                  <span>Explore Microsoft products</span>
+                </li></a
+              >
+              <a href=""
+                ><li tabindex="1"><span>Windows 11 apps</span></li></a
+              >
+            </ul>
+          </div>
+          <div class="main-item">
+            <p>Microsoft Store</p>
+            <ul class="subitem">
+              <a href="">
+                <li tabindex="1">
+                  <span>Account profile</span>
+                </li></a
+              >
+              <a href="">
+                <li tabindex="1">
+                  <span>Download Center</span>
+                </li></a
+              >
+              <a href="">
+                <li tabindex="1">
+                  <span>Microsoft Store support</span>
+                </li></a
+              >
+              <a href="">
+                <li tabindex="1">
+                  <span>Returns</span>
+                </li></a
+              >
+              <a href="">
+                <li tabindex="1">
+                  <span>Order tracking</span>
+                </li></a
+              >
+              <a href="">
+                <li tabindex="1">
+                  <span>Certified Refurbished</span>
+                </li></a
+              >
+              <a href="">
+                <li tabindex="1">
+                  <span>Microsoft Store Promise</span>
+                </li></a
+              >
+              <a href="">
+                <li tabindex="1">
+                  <span>Flexible Payments</span>
+                </li></a
+              >
+            </ul>
+          </div>
+          <div class="main-item">
+            <p>Education</p>
+            <ul class="subitem">
+              <a href="">
+                <li tabindex="1">
+                  <span>Microsoft in education </span>
+                </li></a
+              >
+              <a href="">
+                <li tabindex="1">
+                  <span>Devices for education </span>
+                </li></a
+              >
+              <a href="">
+                <li tabindex="1">
+                  <span>Microsoft Teams for Education </span>
+                </li></a
+              >
+              <a href="">
+                <li tabindex="1">
+                  <span>Microsoft 365 Education </span>
+                </li></a
+              >
+              <a href="">
+                <li tabindex="1">
+                  <span>How to buy for your school </span>
+                </li></a
+              >
+              <a href="">
+                <li tabindex="1">
+                  <span>Educator training and development</span>
+                </li></a
+              >
+              <a href="">
+                <li tabindex="1">
+                  <span>Deals for students and parents </span>
+                </li></a
+              >
+              <a href="">
+                <li tabindex="1">
+                  <span>Azure for students </span>
+                </li></a
+              >
+            </ul>
+          </div>
+          <div class="main-item">
+            <p>Business</p>
+            <ul class="subitem">
+              <a href="">
+                <li tabindex="1">
+                  <span>Microsoft Cloud </span>
+                </li></a
+              >
+              <a href="">
+                <li tabindex="1">
+                  <span>Microsoft Security </span>
+                </li></a
+              >
+              <a href="">
+                <li tabindex="1">
+                  <span>Dynamics 365 </span>
+                </li></a
+              >
+              <a href="">
+                <li tabindex="1">
+                  <span>Microsoft 365 </span>
+                </li></a
+              >
+              <a href="">
+                <li tabindex="1">
+                  <span>Microsoft Power Platform </span>
+                </li></a
+              >
+              <a href="">
+                <li tabindex="1">
+                  <span>Microsoft Teams </span>
+                </li></a
+              >
+              <a href="">
+                <li tabindex="1">
+                  <span>Copilot for Microsoft 365 </span>
+                </li></a
+              >
+              <a href="">
+                <li tabindex="1">
+                  <span>Small Business </span>
+                </li></a
+              >
+            </ul>
+          </div>
+          <div class="main-item">
+            <p>Developer & IT</p>
+            <ul class="subitem">
+              <a href="">
+                <li tabindex="1">
+                  <span>Azure </span>
+                </li></a
+              >
+              <a href="">
+                <li tabindex="1">
+                  <span>Developer Center </span>
+                </li></a
+              >
+              <a href="">
+                <li tabindex="1">
+                  <span>Documentation </span>
+                </li></a
+              >
+              <a href="">
+                <li tabindex="1">
+                  <span>Microsoft Learn </span>
+                </li></a
+              >
+              <a href="">
+                <li tabindex="1">
+                  <span>Microsoft Tech Community </span>
+                </li></a
+              >
+              <a href="">
+                <li tabindex="1">
+                  <span>Azure Marketplace </span>
+                </li></a
+              >
+              <a href="">
+                <li tabindex="1">
+                  <span>AppSource </span>
+                </li></a
+              >
+              <a href="">
+                <li tabindex="1">
+                  <span>Visual Studio </span>
+                </li></a
+              >
+            </ul>
+          </div>
+          <div class="main-item">
+            <p>Company</p>
+            <ul class="subitem">
+              <a href="">
+                <li tabindex="1">
+                  <span>About Microsoft </span>
+                </li></a
+              >
+              <a href="">
+                <li tabindex="1">
+                  <span>Company news </span>
+                </li></a
+              >
+              <a href="">
+                <li tabindex="1">
+                  <span>Privacy at Microsoft </span>
+                </li></a
+              >
+              <a href="">
+                <li tabindex="1">
+                  <span>Investors </span>
+                </li></a
+              >
+              <a href="">
+                <li tabindex="1">
+                  <span>Diversity and inclusion </span>
+                </li></a
+              >
+              <a href="">
+                <li tabindex="1">
+                  <span>Accessibility </span>
+                </li></a
+              >
+              <a href="">
+                <li tabindex="1">
+                  <span>Sustainability </span>
+                </li></a
+              >
+              <a href="">
+                <li tabindex="1">
+                  <span>Careers </span>
+                </li></a
+              >
+            </ul>
+          </div>
+        </div>
+        <div class="footer-nav">
+          <div class="footer-nav-left">
+            <div class="bottom-nav-item">
+              <div class="container">
+                <i class="fas fa-globe fa-2x"></i>&nbsp;&nbsp;<span
+                  class="English"
+                  >English</span
+                >
+              </div>
+              <img src="./img/Your Privacy Choices Opt-Out Icon.svg" />
+              <span class="privacy">Your Privacy Choice</span>
+            </div>
+            <div class="bottom-nav-item">
+              <span class="policy">Policy</span>
+            </div>
+          </div>
+          <ul class="footer-nav-right">
+            <li>Sitemap</li>
+            <li>Contact Microsoft</li>
+            <li>Privacy</li>
+            <li>Terms of use</li>
+            <li>About ous Ads</li>
+            <li>© Microsoft 2024</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
